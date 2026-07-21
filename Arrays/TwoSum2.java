@@ -3,7 +3,7 @@ class Solution {
         //"1-indexed" just means: when they describe the answer as numbers[index1], they're counting the first element as position 1, not position 0.
         int i=0;
         int j=numbers.length-1; //1 indexxed array n both diff ele
-        int res[]= new int[2];
+        int res[]= new int[2]; //result
 
         while(i<j)
         {
